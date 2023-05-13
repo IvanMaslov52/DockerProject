@@ -7,5 +7,4 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://eurekaserver:8083/eureka
-  instance:
-    preferIpAddress: true
+

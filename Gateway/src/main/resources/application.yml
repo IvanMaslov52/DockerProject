@@ -24,6 +24,4 @@ spring:
           uri: lb://EMAIL-SERVICE
           predicates:
             - Path=/email/**
-  eureka:
-    instance:
-      preferIpAddress: true
+
