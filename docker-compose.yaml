@@ -51,7 +51,3 @@ services:
       - firstservice
       - secondservice
       - thirdservice
-
-networks:
-  eureka_network:
-    driver: bridge
